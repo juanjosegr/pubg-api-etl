@@ -30,15 +30,25 @@ Este proyecto forma parte de mi proceso continuo de mejora como **Data Engineer 
 ### 🧱 Estructura actual del proyecto
 
 pubg_pipeline
+
 ├── data/ # Archivos descargados (.csv, .json)
+
 │ └── telemetry/
+
 ├── src/ # Scripts de ETL (extract, transform, load)
+
 ├── config/ # API keys y conexión a base de datos
+
 │   ├── db_config.py
+
 │   └── pubg_api_config.py
+
 ├── notebooks/ # Notebooks para exploración
+
 ├── run_pipeline.py # Script principal de ejecución
+
 ├── requirements.txt # Dependencias del proyecto
+
 └── README.md # Esta documentación
 
 ---
