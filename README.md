@@ -29,7 +29,7 @@ Este proyecto forma parte de mi proceso continuo de mejora como **Data Engineer 
 
 ### 🧱 Estructura actual del proyecto
 
-pubg_pipeline/
+pubg_pipeline
 ├── data/ # Archivos descargados (.csv, .json)
 │ └── telemetry/
 ├── src/ # Scripts de ETL (extract, transform, load)
