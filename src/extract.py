@@ -24,8 +24,6 @@ def searchPlayer (player_name):
     data = response.json()
     return data["data"][0]["id"]
 
-searchPlayer('KaDiz-')
-
 def find_match_players(player_id):
     # Endpoint to obtain data of the player from id
     url = f"{BASE_URL}/players/{player_id}"

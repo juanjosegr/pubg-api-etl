@@ -14,4 +14,3 @@ HEADERS = {
 }
 
 BASE_URL = "https://api.pubg.com/shards/steam"
-

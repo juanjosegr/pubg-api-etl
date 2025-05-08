@@ -39,9 +39,9 @@ pubg_pipeline/
 
 ├── config/ # API keys y conexión a base de datos
 
-│   ├── db_config.py
+│ ├── db_config.py
 
-│   └── pubg_api_config.py
+│ └── pubg_api_config.py
 
 ├── notebooks/ # Notebooks para exploración
 
@@ -50,7 +50,6 @@ pubg_pipeline/
 ├── requirements.txt # Dependencias del proyecto
 
 └── README.md # Esta documentación
-
 ---
 
 ### 🚀 Próximos pasos
