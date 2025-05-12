@@ -3,12 +3,10 @@ from sqlalchemy.exc import OperationalError
 from urllib.parse import quote
 import os
 from dotenv import load_dotenv
-
-current_dir = os.path.dirname(__file__) 
-env_path = os.path.abspath(os.path.join(current_dir, "..", "config", "credenciales.env"))
+import sys
+env_path = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "credenciales.env")))
 
 load_dotenv(env_path)
-
 
 def get_engine():
     user = os.getenv("DB_USER")
@@ -31,4 +29,4 @@ def get_engine():
         print(e)
         return None
 
-engine_start = get_engine()
+
