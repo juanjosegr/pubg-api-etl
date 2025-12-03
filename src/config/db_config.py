@@ -4,7 +4,7 @@ from urllib.parse import quote
 import os
 from dotenv import load_dotenv
 import sys
-env_path = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "credenciales.env")))
+env_path = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", ".env")))
 
 load_dotenv(env_path)
 

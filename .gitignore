@@ -1,1 +1,30 @@
-src/config/credenciales.env
+# --- ENTORNOS Y DEPENDENCIAS ---
+.venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- CONFIGURACIÓN / CREDENCIALES ---
+src/config/.env
+.env
+*.env
+
+# --- DATOS GENERADOS ---
+data/
+data/**/*
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+
+# --- LOGS / ARCHIVOS TEMPORALES ---
+logs/
+*.log
+*.tmp
+
+# --- VARIOS ---
+.DS_Store
+Thumbs.db
